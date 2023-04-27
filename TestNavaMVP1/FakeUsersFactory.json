@@ -1,0 +1,30 @@
+﻿[
+  {
+    "id": 300,
+    "email": "iradukunda@Finc.com",
+    "name": "Iradukunda",
+    "password": "Apples"
+  },
+
+  {
+    "id": 301,
+    "email": "Ivana@Finc.com",
+    "name": "Ivana",
+    "password": "Oranges"
+  },
+
+  {
+    "id": 302,
+    "email": "Suleiman@Finc.com",
+    "name": "Suleiman",
+    "password": "Kiwis"
+  },
+
+  {
+    "id": 303,
+    "email": "Deus@Finc.com",
+    "name": "Deus",
+    "Password": "Bananas"
+  }
+
+]
