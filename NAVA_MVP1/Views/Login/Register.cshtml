@@ -5,9 +5,7 @@
     Layout = "~/Views/Shared/_LoginLayout.cshtml";
 }
 
-<h1>Register</h1>
-
-<h4>UsersModel</h4>
+<h4>Register</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -44,7 +42,9 @@
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Register" class="btn btn-primary" asp-action="Index" />
+               <div class="pt-2">
+                    <input type="submit" value="Register" class="btn btn-primary" asp-action="Index" />
+               </div> 
             </div>
         </form>
     </div>
