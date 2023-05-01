@@ -20,11 +20,19 @@ namespace NAVA_MVP1.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             return View();
         }
-       
+        public IActionResult Documentation ()
+        {
+            return View();
+        }
+        public IActionResult Contact() 
+        {
+            return View();
+        }
+        
         //[HttpPost]
         //[ValidateAntiForgeryToken]
         //public IActionResult Register(UsersModel usersModel)
