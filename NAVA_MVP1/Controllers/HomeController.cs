@@ -32,25 +32,9 @@ namespace NAVA_MVP1.Controllers
         {
             return View();
         }
-        
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public IActionResult Register(UsersModel usersModel)
-        //{
-        //    if(ModelState.IsValid)
-        //    {
-        //      int recordsCreated =  CreateUser(usersModel.UserID,
-        //            usersModel.UserEmail,
-        //            usersModel.UserName);
-
-        //        return RedirectToAction("Index");
-        //    }
-        //    return View();
-        //}
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
+        public IActionResult Profile()
+        {
+            return View();
+        }
     }
 }

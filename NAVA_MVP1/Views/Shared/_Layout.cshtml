@@ -20,7 +20,6 @@
             </div>
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-around">
                 <ul class="navbar-nav">
-
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
                     </li>
@@ -35,14 +34,16 @@
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-around">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Link
+                        <a class="nav-link border border-dark rounded-circle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            II
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Profile">Profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Index">Signout</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
