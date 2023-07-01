@@ -1,3 +1,5 @@
+using NAVA_MVP1.Database;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -6,6 +8,7 @@ internal class Program
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
+        builder.Services.AddNpgsql<Context>(Configuration.ConnectionString);
 
         var app = builder.Build();
 
