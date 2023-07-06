@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using NAVA_MVP1.Database;
 
 internal class Program

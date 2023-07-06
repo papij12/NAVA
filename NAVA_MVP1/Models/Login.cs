@@ -6,12 +6,14 @@ namespace NAVA_MVP1.Models
         [Display(Name = "Email")]
         [DataType(DataType.EmailAddress)]
         [Required(ErrorMessage = "You need a valid email.")]
-        public string? Email { get; set; }
+        [Key]
+        public string Email { get; set; }
 
         [Display(Name = "Password")]
         [DataType(DataType.Password)]
         [StringLength(100, MinimumLength = 8, ErrorMessage = "Your password is not valid.")]
-        public string? Password { get; set; }
+        [Required]
+        public string Password { get; set; }
 
     }
 }

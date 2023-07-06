@@ -2,6 +2,6 @@
 {
     public class Configuration
     {
-        public static readonly string ConnectionString = "CONNECTION_STRING";
+        public static readonly string ConnectionString = "Connectionstring";
     }
 }

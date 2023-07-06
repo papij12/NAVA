@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace NAVA_MVP1.Controllers
 {
@@ -12,12 +11,15 @@ namespace NAVA_MVP1.Controllers
         }
         public ActionResult Singin()
         {
+          
             return View();
         }
         public ActionResult Register()
         {
+            
+
             return View();
         }
     }
-      
+
 }
