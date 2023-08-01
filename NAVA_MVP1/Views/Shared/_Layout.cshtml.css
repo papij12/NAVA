@@ -2,17 +2,46 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    padding: 0 50px;
 }
 .navbar {
-    background-color: #006400;
+    background-color: #0A8754;
+    justify-content: space-between;
+    padding: 0 50px;
 }
-a {
-  color: #0077cc;
+.nav-link {
+    padding: 0 50px;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    font: 300;
+    
+
+}
+.dropdown-menu {
+    background-color: #0A8754;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:start;
+    padding: 0 90px;
+    margin: 0;
 }
 
+.profile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 90px;
+}
+.ul.navbar-nav{
+    justify-content: center;
+}
 .btbn-primary {
   color: #fff;
   background-color: #1b6ec2;
@@ -40,12 +69,17 @@ button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
+.body {
+}
+._footer{
+    padding:0 125px;
+}
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-  background-color: #006400;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: #0A8754;
 }

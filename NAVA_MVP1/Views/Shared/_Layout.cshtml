@@ -6,37 +6,37 @@
     <title> NAVA</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/NAVA_MVP1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~Shared/_layout.cshtml.css" asp-append-version="true" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-around">
+            <div class="logo">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NAVA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-around">
+            <div class="center">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="About">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Documentation">Docs</a>
+                        <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="Documentation">Docs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact Us</a>
+                        <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="Contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-around">
+            <div class="profile">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link border border-dark rounded-circle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            II
-                        </a>
+                        <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown">
+                            <img width="24" src="~/dropdown.svg" height="24"  alt="logout" class="_logout" />
+                       </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                             <li>
                                 <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Profile">Profile</a>
@@ -56,8 +56,8 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top footer text-black">
+        <div class="_footer">
             &copy; 2023 - NAVA
         </div>
     </footer>
