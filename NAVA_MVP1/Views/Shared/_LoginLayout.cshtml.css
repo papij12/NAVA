@@ -6,10 +6,14 @@ a.navbar-brand {
    
 }
 .navbar {
-    background-color: #006400;
+    background-color: #0A8754;
+    padding: 0 50px;
 }
 a {
     color: #0077cc;
+}
+.container-fluid{
+    padding:0 90px;
 }
 
 .btbn-primary {
@@ -47,5 +51,5 @@ button.accept-policy {
     width: 100%;
     white-space: nowrap;
     line-height: 60px;
-    background-color: #006400;
+    background-color: #0A8754;
 }
