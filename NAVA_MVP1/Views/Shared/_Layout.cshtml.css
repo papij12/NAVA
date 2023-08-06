@@ -8,7 +8,7 @@ a.navbar-brand {
     padding: 0 50px;
 }
 .navbar {
-    background-color: #0A8754;
+    background-color: #A8C686;
     justify-content: space-between;
     padding: 0 50px;
 }
@@ -22,7 +22,7 @@ a.navbar-brand {
 
 }
 .dropdown-menu {
-    background-color: #0A8754;
+    background-color: #A8C686;
 }
 .logo {
     display: flex;
@@ -42,35 +42,8 @@ a.navbar-brand {
 .ul.navbar-nav{
     justify-content: center;
 }
-.btbn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-.body {
-}
 ._footer{
     padding:0 125px;
 }
@@ -81,5 +54,5 @@ button.accept-policy {
     width: 100%;
     white-space: nowrap;
     line-height: 60px;
-    background-color: #0A8754;
+    background-color: #A8C686;
 }
