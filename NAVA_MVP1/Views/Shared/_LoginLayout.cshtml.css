@@ -1,21 +1,15 @@
 ﻿.navbar {
     background-color: #A8C686;
-    
+    justify-content: space-between;
+    padding: 0 90px;
 }
-
-.container-fluid{
-    padding:0 90px;
-}
-li.nav-item{
-    padding: 0 10px;
-}
-
 
 .footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width:100%;
     white-space: nowrap;
     line-height: 60px;
-    background-color: #A8C686 ;
+    background-color: #A8C686;
+    padding: 0 90px;
 }
