@@ -1,7 +1,7 @@
 ﻿.navbar {
     background-color: #A8C686;
     justify-content: space-between;
-    padding: 0 90px;
+   
 }
 
 .footer {
@@ -11,5 +11,5 @@
     white-space: nowrap;
     line-height: 60px;
     background-color: #A8C686;
-    padding: 0 90px;
+   
 }

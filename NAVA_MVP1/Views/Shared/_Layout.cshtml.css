@@ -16,7 +16,10 @@ for details on configuring this project to bundle and minify static web assets. 
 .offcancas-body{
     justify-content: space-between;
 }
-
+.dropdown-menu {
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(20px);
+}
 
 .footer {
     position: absolute;
@@ -25,4 +28,5 @@ for details on configuring this project to bundle and minify static web assets. 
     white-space: nowrap;
     line-height: 60px;
     background-color: #A8C686;
+   
 }
