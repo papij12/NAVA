@@ -11,8 +11,9 @@
 <body>
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
+                                
                 <!--Logo-->
                 <a class="navbar-brand fs-4 text-black" href="#">NAVA</a>
                 <!--Toggle Btn-->
@@ -23,13 +24,13 @@
                 <!--SiderBar-->
 
                 <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header text-dark border-bottom">
+                    <div class="offcanvas-header  text-dark border-bottom">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
                         <button type="button" class="btn-close btn-close-dark shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
                     <!--Sidebar Body-->
-                    <div class="offcanvas-body">
+                    <div class="_offcanvasbody offcanvas-body">
                         <ul class="navbar-nav  flex-grow-1 pe-3">
                             <li class="nav-item mx-2">
                             <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="About">About</a>
@@ -42,12 +43,12 @@
                             </li>
                         </ul>
                        <!--drodpdown menu-->
-                       <div class="d-flex">
+                       <div class="_dropdownbtn btn-group dropstart">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
 
                                     <button class="btn shadow-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img width="24" src="~/dropdown.svg" height="24" alt="dropdown" class="_drop" />
+                                        <img width="24" src="~/dropdown2.svg" height="24" alt="dropdown" class="_drop" />
                                     </button>
 
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
