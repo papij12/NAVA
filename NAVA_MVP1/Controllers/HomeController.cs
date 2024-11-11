@@ -1,7 +1,4 @@
-﻿using static DataLibrary.BusinessLogic.UserProcessor;
-using Microsoft.AspNetCore.Mvc;
-using NAVA_MVP1.Models;
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Mvc;
 
 
 namespace NAVA_MVP1.Controllers
